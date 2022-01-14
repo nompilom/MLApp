@@ -52,7 +52,7 @@ if ok:
     y = df1.iloc[:,-1]
     
    
-    seed=st.sidebar.slider('Seed',1,200)
+    seed=st.sidebar.slider('Random_state',1,200)
 
     classifier_name = st.sidebar.selectbox('Select the Classifier:',('SVM','LogisticRegression','Decision tree','RandomForest','XgBoost'))
 
